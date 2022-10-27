@@ -1,3 +1,29 @@
+<div align="center">
+
+# John Virtual Card
+>Buzzvel 2022 Dev Team Test
+Story
+João is tired of using business cards for his business. He liked having a picture on
+his phone so that people scanning it could see all of their data on one page.
+Your goal is to create a tool that helps João solve his problem in a simple way
+</div>
+
+<div align="center">
+
+![buzzvel](https://user-images.githubusercontent.com/63679873/198416410-50eca54a-747a-4dc7-a961-e73b22d1fa08.png)
+</div>
+
+<div align="center">
+
+# technologies used in the project
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/63679873/198417583-4bba3edf-8cde-4bed-9bdf-d3b06a629852.png">
+![png-transparent-laravel-hd-logo-thumbnail](https://user-images.githubusercontent.com/63679873/198417583-4bba3edf-8cde-4bed-9bdf-d3b06a629852.png)
+
+
+#
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
