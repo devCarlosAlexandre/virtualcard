@@ -6,15 +6,22 @@ export default function Home() {
   const [linkLinkedin, setLinkLinkedin] = React.useState('');
   const [linkGithub, setLinkGithub] = React.useState('');
   function handleGenerateQrCode(name, linkLinkedin, linkGithub) {
-    fetch('http://127.0.0.1:3333/qruser', {
-      method: 'POST', body: JSON.stringify({
+    if (name !== '' || linkLinkedin !== '' || linkGithub !== '') {
+      const infouser = {
         name: name,
-        linkLinkedin: linkLinkedin,
-        linkGithub: linkGithub
+        link_linkedin: linkLinkedin,
+        link_github: linkGithub
+      };
+      const qrcodeJson = JSON.stringify(infouser);
+      fetch('http://127.0.0.1:8000/api/virtualcards', {
+        method: 'POST', body: qrcodeJson, headers: { "Content-Type": "application/json" }
+      }).then((json) => {
+        console.log(json);
       })
-    }).then((json) => {
-      console.log(json);
-    })
+    } else {
+      console.log('Preencha todos os campos');
+      alert('Preencha todos os campos');
+    }
 
   }
 
