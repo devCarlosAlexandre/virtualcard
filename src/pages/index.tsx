@@ -1,22 +1,26 @@
 import React from 'react';
 import styles from '../../styles/styles.module.scss';
+import Link from 'next/link';
+import Router, { useRouter } from 'next/router'
 
 export default function Home() {
   const [name, setName] = React.useState('');
   const [linkLinkedin, setLinkLinkedin] = React.useState('');
   const [linkGithub, setLinkGithub] = React.useState('');
-  function handleGenerateQrCode(name, linkLinkedin, linkGithub) {
+  function handleGenerateQrCode(name: string, linkLinkedin: string, linkGithub: string) {
     if (name !== '' || linkLinkedin !== '' || linkGithub !== '') {
-      const infouser = {
+      const infoUser = {
         name: name,
         link_linkedin: linkLinkedin,
         link_github: linkGithub
       };
-      const qrcodeJson = JSON.stringify(infouser);
+      const qrcodeJson = JSON.stringify(infoUser);
       fetch('http://127.0.0.1:8000/api/virtualcards', {
         method: 'POST', body: qrcodeJson, headers: { "Content-Type": "application/json" }
       }).then((json) => {
-        console.log(json);
+        var body =  json;
+        console.log(body);
+       // return Router.push('/qruser?name=' + body);
       })
     } else {
       console.log('Preencha todos os campos');
@@ -24,8 +28,6 @@ export default function Home() {
     }
 
   }
-
-
 
   return (
     <div className={styles.body}>

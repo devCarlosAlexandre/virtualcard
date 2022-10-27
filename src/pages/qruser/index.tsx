@@ -2,7 +2,7 @@ import React from 'react';
 import QRCode from 'react-qr-code';
 import QRCodeLink from 'qrcode';
 import { useState } from 'react';
-import styles from './../../styles/styles.module.scss';
+import styles from '../../../styles/styles.module.scss';
 export default function QrUser() {
     const [link, setLink] = useState('');
     const [qrcodeLink, setQrcodeLink] = useState('');
