@@ -116,8 +116,7 @@
     font-size: 2rem;
     font-weight: 600;
     color: #678EFE;
-    padding-bottom: 20px;
-    padding-top: 0;
+    padding: 20px;
 }
 
 .content {
@@ -148,4 +147,33 @@
     &:hover {
         background-color: #4d6fe0;
     }
+}
+
+.a {
+    color: #678EFE;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .3s ease;
+
+    &:hover {
+        color: #4d6fe0;
+    }
+}
+
+.span {
+    color: #678EFE;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color .3s ease;
+
+    &:hover {
+        color: #4d6fe0;
+    }
+}
+
+.divGlobal {
+    padding: 20px;
 }
