@@ -1,6 +1,14 @@
 <div align="center">
 
 # John Virtual Card
+  
+<div align="center">
+
+![buzzvel](https://user-images.githubusercontent.com/63679873/198416410-50eca54a-747a-4dc7-a961-e73b22d1fa08.png)
+</div>
+
+<div align="center">
+  
 >Buzzvel 2022 Dev Team Test
 Story
 João is tired of using business cards for his business. He liked having a picture on
@@ -8,17 +16,11 @@ his phone so that people scanning it could see all of their data on one page.
 Your goal is to create a tool that helps João solve his problem in a simple way
 </div>
 
-<div align="center">
-
-![buzzvel](https://user-images.githubusercontent.com/63679873/198416410-50eca54a-747a-4dc7-a961-e73b22d1fa08.png)
+<div align="left">
+  
+# technologies used in the project:
+  
 </div>
-
-<div align="center">
-
-# technologies used in the project
-
-</div>
-
 <div align="center">
 <img height="80" src="https://user-images.githubusercontent.com/63679873/198420855-d45c0d05-52b7-420c-9714-8af8bd072d79.png">
 <img height="110" src="https://user-images.githubusercontent.com/63679873/198421379-fe8ebe28-9230-4f42-b678-1161c63ea894.png">
