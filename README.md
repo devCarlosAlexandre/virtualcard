@@ -19,8 +19,12 @@ Your goal is to create a tool that helps João solve his problem in a simple way
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/63679873/198417583-4bba3edf-8cde-4bed-9bdf-d3b06a629852.png">
-![png-transparent-laravel-hd-logo-thumbnail](https://user-images.githubusercontent.com/63679873/198417583-4bba3edf-8cde-4bed-9bdf-d3b06a629852.png)
+<div align="center">
+<img height="80" src="https://user-images.githubusercontent.com/63679873/198420855-d45c0d05-52b7-420c-9714-8af8bd072d79.png">
+<img height="110" src="https://user-images.githubusercontent.com/63679873/198421379-fe8ebe28-9230-4f42-b678-1161c63ea894.png">
+<img height="110" src="https://user-images.githubusercontent.com/63679873/198421707-04433718-021f-4143-849b-1883416f3f61.png">
+<img height="80" src="https://user-images.githubusercontent.com/63679873/198421888-9491ef49-4dfe-461e-a498-c54578ad3d10.png">
+</div>
 
 
 #
