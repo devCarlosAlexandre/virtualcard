@@ -11,7 +11,7 @@ export default function Home() {
   const [linkGithub, setLinkGithub] = React.useState('');
   const [history, setHistory] = React.useState('');
 
-  async function saveUser(name: string, linkLinkedin: string, linkGithub: string) {
+  const saveUser = async (name: string, linkLinkedin: string, linkGithub: string) => {
     if (name !== '' || linkLinkedin !== '' || linkGithub !== '' || history !== '') {
       var ipaddress = await json.urlApi;
       var idUser: string;
