@@ -1,6 +1,6 @@
 <div align="center">
 
-# John Virtual Card
+# John Virtual Card 🤖
   
 <div align="center">
 
@@ -18,14 +18,40 @@ Your goal is to create a tool that helps João solve his problem in a simple way
 
 <div align="left">
   
-# technologies used in the project:
-  
+# technologies used in the project ✨🐱‍🚀✨:
 </div>
+
 <div align="center">
 <img height="80" src="https://user-images.githubusercontent.com/63679873/198420855-d45c0d05-52b7-420c-9714-8af8bd072d79.png">
 <img height="110" src="https://user-images.githubusercontent.com/63679873/198421379-fe8ebe28-9230-4f42-b678-1161c63ea894.png">
 <img height="110" src="https://user-images.githubusercontent.com/63679873/198421707-04433718-021f-4143-849b-1883416f3f61.png">
 <img height="80" src="https://user-images.githubusercontent.com/63679873/198421888-9491ef49-4dfe-461e-a498-c54578ad3d10.png">
+</div>
+
+<div align="left">
+
+## Install dependency Next 🐱‍👤:
+**Install dependency Next:** Rode o comando -> yarn install 
+
+**Config:** Deve ser adicionado no pack.json o IP do desktop no seguinte campos:
+
+> "urlApi": "http://MyIp:8000",</br>
+  "urlWeb": "http://MyIp:3000",
+
+## config laravel 🐱‍🏍: 
+deve ser feito as configurações no .env para conectar o banco de dados.
+**Install dependency project Laravel:** Rode o comando -> php artisan migrate
+
+**start laravel:** para startar o servidor laravel rode com o seguinte comando -> 
+php artisan serve --host=0.0.0.0 note que a porta padrão deve ser :8000
+
+</div>
+
+#
+<div>
+
+
+
 </div>
 
 
