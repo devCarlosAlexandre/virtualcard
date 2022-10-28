@@ -18,7 +18,7 @@ Your goal is to create a tool that helps João solve his problem in a simple way
 
 <div align="left">
   
-# technologies used in the project ✨🐱‍🚀✨:
+## technologies used in the project ✨🐱‍🚀✨:
 </div>
 
 <div align="center">
@@ -30,63 +30,53 @@ Your goal is to create a tool that helps João solve his problem in a simple way
 
 <div align="left">
 
+## Interface project🪄✨:
+</div>
+
+<div>
+<img height="200" src="https://user-images.githubusercontent.com/63679873/198601248-39a242b9-7a1a-42dd-995c-c75f4a45dafb.png">
+<img height="200" src="https://user-images.githubusercontent.com/63679873/198601360-1c8d2c02-6bd6-45dd-8ce5-a8745f0f11ee.png">
+<img height="200" src="https://user-images.githubusercontent.com/63679873/198601305-104a4d7b-bac9-46bc-8686-dfe5d18be72a.png">
+
+</div>
+<div align="left">
+
 ## Install dependency Next 🐱‍👤:
+</div>
+<div align="left">
 **Install dependency Next:** Rode o comando -> yarn install 
 
 **Config:** Deve ser adicionado no pack.json o IP do desktop no seguinte campos:
 
-> "urlApi": "http://MyIp:8000",</br>
-  "urlWeb": "http://MyIp:3000",
-
-## config laravel 🐱‍🏍: 
-deve ser feito as configurações no .env para conectar o banco de dados.
-**Install dependency project Laravel:** Rode o comando -> php artisan migrate
-
-**start laravel:** para startar o servidor laravel rode com o seguinte comando -> 
-php artisan serve --host=0.0.0.0 note que a porta padrão deve ser :8000
-
 </div>
 
-#
-<div>
+```
+"urlApi": "http://MyIp:8000",</br>
+"urlWeb": "http://MyIp:3000",
+```
 
+<div align="left">
 
-
+## config laravel 🐱‍ 🏍 🛠️:
 </div>
+<div align="left">
+
+the settings must be made in the .env to connect the database.
+
+**Install dependency project Laravel:** Run the command -> php artisan migrate
+
+**start laravel:** to start the laravel server run with the following command -> php artisan serve --host=0.0.0.0 note that the default port must be :8000
+
 
 
 #
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
+This is a [Next.js](https://nextjs.org/).
 
 First, run the development server:
+</div>
 
 ```bash
 npm run dev
 # or
 yarn dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
