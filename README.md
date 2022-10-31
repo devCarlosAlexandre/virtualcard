@@ -49,7 +49,8 @@ Your goal is to create a tool that helps João solve his problem in a simple way
 <div align="left">
 **Install dependency Next:** Rode o comando -> yarn install 
 
-**Config:** Deve ser adicionado no pack.json o IP do desktop no seguinte campos:
+**Config:** The MyIp variables in pack.json must be exchanged for the desktop IP in the following fields so that the link can be accessed through the smartphone, as long as both are on the same network:
+
 
 </div>
 
