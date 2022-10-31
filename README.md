@@ -55,7 +55,7 @@ Your goal is to create a tool that helps João solve his problem in a simple way
 </div>
 
 ```
-"urlApi": "http://MyIp:8000",</br>
+"urlApi": "http://MyIp:8000",
 "urlWeb": "http://MyIp:3000",
 ```
 
