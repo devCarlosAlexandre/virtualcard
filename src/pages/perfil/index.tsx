@@ -9,6 +9,7 @@ export default function Perfil() {
         link_github: '',
         link_linkedin: '',
         name: '',
+        instagram: ''
     });
 
     const getInfoUser = async () => {
@@ -49,6 +50,7 @@ export default function Perfil() {
                 }}>
                     <a href={user.link_github} className={styles.a}>GitHub</a>
                     <a href={user.link_linkedin} className={styles.a}>Linkedin</a>
+                    <a href={user.instagram} className={styles.a}>Instagram</a>
                 </div>
             </div>
         </div>

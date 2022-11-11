@@ -10,8 +10,9 @@ export default function Home() {
   const [linkLinkedin, setLinkLinkedin] = React.useState('');
   const [linkGithub, setLinkGithub] = React.useState('');
   const [history, setHistory] = React.useState('');
+  const [instagram, setInstagram] = React.useState('');
 
-  const saveUser = async (name: string, linkLinkedin: string, linkGithub: string) => {
+  const saveUser = async (name: string, linkLinkedin: string, linkGithub: string, instagram: string) => {
     if (name !== '' || linkLinkedin !== '' || linkGithub !== '' || history !== '') {
       var ipaddress = await json.urlApi;
       var idUser: string;
@@ -23,7 +24,8 @@ export default function Home() {
           name: name,
           link_linkedin: linkLinkedin,
           link_github: linkGithub,
-          history: history
+          history: history,
+          instagram: instagram
         }
       });
       idUser = body.data.id;
@@ -65,6 +67,15 @@ export default function Home() {
           />
         </div>
         <div className={styles.formGroup}>
+          <span>Instagram</span>
+          <input className={styles.formField}
+            type="text"
+            placeholder="Instagram..."
+            value={instagram}
+            onChange={e => setInstagram(e.target.value)}
+          />
+        </div>
+        <div className={styles.formGroup}>
           <span>My history</span>
           <input className={styles.formField}
             type="text"
@@ -73,7 +84,7 @@ export default function Home() {
             onChange={e => setHistory(e.target.value)}
           />
         </div>
-        <button onClick={() => saveUser(name, linkGithub, linkLinkedin)} className={styles.button}> Generate qr</button>
+        <button onClick={() => saveUser(name, linkGithub, linkLinkedin, instagram)} className={styles.button}> Generate qr</button>
       </div>
     </div>
   )
